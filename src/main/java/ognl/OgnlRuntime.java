@@ -30,6 +30,7 @@
 // --------------------------------------------------------------------------
 package ognl;
 
+import com.googlecode.openbeans.*;
 import ognl.enhance.ExpressionCompiler;
 import ognl.enhance.OgnlExpressionCompiler;
 import ognl.internal.ClassCache;
@@ -37,7 +38,7 @@ import ognl.internal.ClassCacheImpl;
 import ognl.security.OgnlSecurityManagerFactory;
 import ognl.security.UserMethod;
 
-import java.beans.*;
+// import java.beans.*;
 import java.lang.reflect.*;
 import java.math.BigDecimal;
 import java.math.BigInteger;

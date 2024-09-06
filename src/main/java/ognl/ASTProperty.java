@@ -30,11 +30,13 @@
 // --------------------------------------------------------------------------
 package ognl;
 
+import com.googlecode.openbeans.IndexedPropertyDescriptor;
+import com.googlecode.openbeans.PropertyDescriptor;
 import ognl.enhance.ExpressionCompiler;
 import ognl.enhance.UnsupportedCompilationException;
 
-import java.beans.IndexedPropertyDescriptor;
-import java.beans.PropertyDescriptor;
+// import java.beans.IndexedPropertyDescriptor;
+// import java.beans.PropertyDescriptor;
 import java.lang.reflect.Method;
 import java.util.Iterator;
 

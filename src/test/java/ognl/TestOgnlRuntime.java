@@ -1,9 +1,10 @@
 package ognl;
 
+import com.googlecode.openbeans.PropertyDescriptor;
 import junit.framework.TestCase;
 import org.ognl.test.objects.*;
 
-import java.beans.PropertyDescriptor;
+// import java.beans.PropertyDescriptor;
 import java.io.Serializable;
 import java.lang.reflect.Field;
 import java.lang.reflect.InvocationTargetException;

@@ -30,7 +30,10 @@
 //--------------------------------------------------------------------------
 package ognl;
 
-import java.beans.*;
+// import java.beans.*;
+import com.googlecode.openbeans.IntrospectionException;
+import com.googlecode.openbeans.PropertyDescriptor;
+
 import java.lang.reflect.*;
 
 /**

@@ -1,9 +1,10 @@
 package ognl;
 
-import java.beans.IntrospectionException;
+// import java.beans.IntrospectionException;
 import java.lang.reflect.Method;
 import java.util.List;
 
+import com.googlecode.openbeans.IntrospectionException;
 import junit.framework.TestCase;
 
 public class Java8Test extends TestCase {
